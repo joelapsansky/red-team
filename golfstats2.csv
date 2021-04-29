@@ -1,0 +1,18 @@
+﻿Year,Macro Stat,User-friendly Stat Name,Code-friendly Stat Name,URL
+2021,Off the Tee,Strokes Gained - Off the Tee,SG_off_tee,https://www.pgatour.com/content/pgatour/stats/stat.02567.y2021.html
+2021,Off the Tee,Strokes Gained - Tee-to-green,SG_tee_green,https://www.pgatour.com/content/pgatour/stats/stat.02674.y2021.html
+2021,Off the Tee,Driving Distance,driving_distance,https://www.pgatour.com/content/pgatour/stats/stat.101.y2021.html
+2021,Off the Tee,% of Yardage Covered by Tee Shots,percentage_yardage_tee,https://www.pgatour.com/content/pgatour/stats/stat.02341.y2021.html
+2021,Off the Tee,% of Yardage Covered by Tee Shots - Par 5,percentage_yardage_tee_P5,https://www.pgatour.com/content/pgatour/stats/stat.02343.y2021.html
+2021,Off the Tee,% of Yardage Covered by Tee Shots - Par 4,percentage_yardage_tee_P4,https://www.pgatour.com/content/pgatour/stats/stat.02342.y2021.html
+2021,Off the Tee,Driving Percentage 320+,driving_320+,https://www.pgatour.com/content/pgatour/stats/stat.496.y2020.html
+2021,Approach the Green,Strokes Gained - Approach the Green,SG_approach_green,https://www.pgatour.com/content/pgatour/stats/stat.02568.y2021.html
+2021,Approach the Green,Greens in Regulation Percentage,GIR_percentage,https://www.pgatour.com/content/pgatour/stats/stat.103.y2021.html
+2021,Approach the Green,Greens or Fringe in Regulation Percentage,GOFIR_percentage,https://www.pgatour.com/content/pgatour/stats/stat.02437.y2021.html
+2021,Approach the Green,Greens in Regulation Percentage from Fairway,GIR_percentage_fairway,https://www.pgatour.com/content/pgatour/stats/stat.190.y2021.html
+2021,Approach the Green,Greens in Regulation Other than Fairway,GIR_percentage_not_fairway,https://www.pgatour.com/content/pgatour/stats/stat.199.y2021.html
+2021,Approach the Green,Accuracy from Fairway - Proximity,fairway_proximity,https://www.pgatour.com/content/pgatour/stats/stat.431.y2021.html
+2021,Approach the Green,Accuracy from Rough - Proximity,rough_proximity,https://www.pgatour.com/content/pgatour/stats/stat.437.y2021.html
+2021,Around the Green,Strokes Gained - Around the Green,SG_ATG,https://www.pgatour.com/content/pgatour/stats/stat.02569.y2021.html
+2021,Around the Green,Sand Save Percentage,percentage_sand_save,https://www.pgatour.com/content/pgatour/stats/stat.111.y2021.html
+2021,Around the Green,Scrambling,scrambling,https://www.pgatour.com/content/pgatour/stats/stat.130.y2021.html
