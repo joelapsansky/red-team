@@ -1,0 +1,77 @@
+-- Create table
+CREATE TABLE pga_unsupervised (
+"SG_off_tee_AVERAGE" double precision,
+"SG_tee_green_AVERAGE" double precision,
+"driving_dist_AVG." double precision,
+"pct_ydg_tee_AVG (%)" double precision,
+"driving_320+_%" double precision,
+"SG_approach_green_AVERAGE" double precision,
+"GIR_pct_%" double precision,
+"GOFIR_pct_%" double precision,
+"GIR_pct_fwy_%" double precision,
+"GIR_pct_not_fwy_%" double precision,
+"fwy_prox_AVG" integer,
+"rough_prox_AVG" integer,
+"SG_ATG_AVERAGE" double precision,
+"pct_sand_save_%" double precision,
+"scrambling_%" double precision,
+"SG_putt_AVERAGE" double precision,
+"pct_one_putt_%" double precision,
+"pct_three_putt_avoid_%" double precision,
+"putt_avg_AVG" double precision,
+"putts_per_rd_AVG" double precision,
+"bogey_avoid_% MAKES BOGEY" double precision,
+"btb_ratio_BIRDIE TO BOGEY RATIO" double precision,
+"money_MONEY" double precision,
+"Year" integer,
+"Class" integer
+);
+
+-- Check table
+SELECT * FROM pga_unsupervised;
+
+-- Alter table since we don't need or have year (join it later)
+ALTER TABLE pga_unsupervised 
+DROP COLUMN "Year";
+
+-- Since this is 465 (same as total), you can join on this (all are unique)
+SELECT count(distinct("money_MONEY")) FROM pga_unsupervised;
+
+-- Create full unsupervised table with Year, Player Name, and Class
+CREATE TABLE pga_unsupervised_full (
+"Year" integer,
+"PLAYER NAME" text,
+"SG_off_tee_AVERAGE" double precision,
+"SG_tee_green_AVERAGE" double precision,
+"driving_dist_AVG." double precision,
+"pct_ydg_tee_AVG (%)" double precision,
+"driving_320+_%" double precision,
+"SG_approach_green_AVERAGE" double precision,
+"GIR_pct_%" double precision,
+"GOFIR_pct_%" double precision,
+"GIR_pct_fwy_%" double precision,
+"GIR_pct_not_fwy_%" double precision,
+"fwy_prox_AVG" integer,
+"rough_prox_AVG" integer,
+"SG_ATG_AVERAGE" double precision,
+"pct_sand_save_%" double precision,
+"scrambling_%" double precision,
+"SG_putt_AVERAGE" double precision,
+"pct_one_putt_%" double precision,
+"pct_three_putt_avoid_%" double precision,
+"putt_avg_AVG" double precision,
+"putts_per_rd_AVG" double precision,
+"bogey_avoid_% MAKES BOGEY" double precision,
+"btb_ratio_BIRDIE TO BOGEY RATIO" double precision,
+"money_MONEY" double precision,
+"Class" integer
+);
+
+-- Insert into table
+INSERT INTO pga_unsupervised_full
+SELECT "Year", "PLAYER NAME", u.*
+	FROM pga_unsupervised u LEFT JOIN pga_stats_full f ON u."money_MONEY" = f."money_MONEY";
+
+-- View new table
+SELECT * FROM pga_unsupervised_full;
+
