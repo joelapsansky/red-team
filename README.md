@@ -36,4 +36,4 @@ The Red Team has used a Flask template in conjunction with D3 for the presentati
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) <ins>`Summary`</ins>
 ### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`Results`</ins>
 ##### Thank you for your time and consideration to Red Teams Project 
-<img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Golf_Course.png width="600" height="300">
+<img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Golf_Course.png width="900" height="200">
