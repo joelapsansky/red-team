@@ -1,5 +1,5 @@
 // import data from data.js
-const tableData = data;
+// const tableData = data;
 // Ref HTML table(output) using d3 library
 var tbody = d3.select('tbody');
 // Fx of populate data into html table
@@ -57,4 +57,4 @@ function filterTable(obj) {
 // d3 event handling
 d3.selectAll("input").on("change",updateFilters);
 // show original table when page loads, before event triggerd
-buildTable(tableData);
+// buildTable(tableData);
