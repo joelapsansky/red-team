@@ -27,6 +27,8 @@ The below Platforms were soley utilized throughout this project to provide a mea
 ### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`2. Database Storage`</ins>
 The Red Team created a database in AWS and added the cleaned dataset to an S3 bucket.  From there, the team wrote the data to Postgres using PySpark. Flask was utilized to display the data.
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) <ins>`3. Machine Learning`</ins>
-The team used supervised learning models for the project. Experimentation with a linear model, a random forest model, and an elastic net were also used to compare and contrast.  An unsupervised learning model was used just to visualize our data in clusters.
+* Supervised learning models for the project 
+* Experimentation with a linear model, a random forest model, and an elastic net were also used to compare and contrast  
+* An unsupervised learning model was used to visualize the data in clusters
 ### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`4. Dashboard`</ins>
 The Red Team has used a Flask template in conjunction with D3 for the presentation.
