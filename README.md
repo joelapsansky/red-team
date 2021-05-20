@@ -9,7 +9,8 @@ Description of source data:
 * pgatour.com
 
 Question to answer:  
-* i. Which specific performance statistics collected on professional golfers contribute most to overall winnings since the start of 2017?  
+* i. Which specific performance statistics collected on professional golfers contribute most to overall winnings since the start of 2017?
+  
 Audience: 
 * Media and news outlets
 * Fans
