@@ -32,3 +32,7 @@ The Red Team created a database in AWS and added the cleaned dataset to an S3 bu
 * An unsupervised learning model was used to visualize the data in clusters
 ### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`4. Dashboard`</ins>
 The Red Team has used a Flask template in conjunction with D3 for the presentation.
+## Summary and Results
+### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`Summary`</ins>
+### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`Results`</ins>
+## ![Thank you for your time and consideration to Red Teams Project](https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Golf_Course.png)
