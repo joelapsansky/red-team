@@ -18,7 +18,7 @@ var svg = d3.select("#my_dataviz")
 d3.csv("https://raw.githubusercontent.com/joelapsansky/red-team/main/Excel%20%26%20CSV/reshaped_full_cleaned_dataset.csv", function(data) {
 
     // List of groups (here I have one group per column)
-    var allGroup = ["SG_off_tee_AVERAGE"]
+    var allGroup = ["SG_approach_green_AVERAGE", "SG_ATG_AVERAGE", "SG_off_tee_AVERAGE", "SG_putt_AVERAGE", "putts_per_rd_AVG", "putt_avg_AVG", "pct_ydg_tee_AVG (%)"]
 
     // add the options to the button
     d3.select("#selectButton")
