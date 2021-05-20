@@ -4,7 +4,7 @@
 ### ![1](https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/StoryBoard_Image.png)
 ### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`Selected topic`</ins>
 Key reasons for topic selection include:  
-* The analysts identified a key interest amongst world wide sports fans in sports analytics 
+* The analysts identified a key interest among worldwide sports fans in sports analytics 
 * PGA was specifically utilized due to providing friendly data terms and a wide-array of available data to analyze    
 The source of our data:  
 * pgatour.com
@@ -17,7 +17,7 @@ Audience:
 * Fans
 * Player support groups (e.g. caddies, coaches, etc.) with specific interests in players' successes
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) <ins>`Communication protocols utilized for successful teamwork`</ins>
-The below Platforms were soley utilized throughout this project to provide a means of reliable and successful communicaiton, video meetings, and screen sharing. Meetings convened at least two times a week, along with check-ins, and resource sharing.
+The below Platforms were solely utilized throughout this project to provide a means of reliable and successful communication, video meetings, and screen sharing. Meetings convened at least two times a week, along with check-ins, and resource sharing.
 * Slack
 * Zoom 
 ## Approach and Technologies Used
