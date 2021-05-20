@@ -9,14 +9,14 @@ The source of our data:
 * pgatour.com
 
 Question to answer:  
-* i. Which specific performance statistics collected on professional golfers contribute most to overall winnings since the start of 2017?
+* Which specific performance statistics collected on professional golfers contribute most to overall winnings since the start of 2017?
   
 Audience: 
 * Media and news outlets
 * Fans
 * Player support groups (e.g. caddies, coaches, etc.) with specific interests in players' successes
-### ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) <ins>`Description of the communication protocols`</ins>
-Our team has opted to exclusively use slack for communication.  We meet and check in outside of class 2+ times per week.
+### ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) <ins>`Communication protocols utilized for successful teamwork`</ins>
+Slack and Zoom were the selected platforms and soley utilized throughout this project to provide a means of reliable and successful communicaiton, video meetings, and screen sharing. Meetings convened at least two times a week, along with check-ins, and resource sharing.
 ## Technologies Used
 ### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`Data Cleaning and Analysis`</ins>
 Our team used Pandas to scrape and clean the data.  We used the "to_csv" function to send our cleaned dataset to a CSV for everyone to use.
