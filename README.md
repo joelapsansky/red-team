@@ -35,6 +35,7 @@ The Red Team created a database in AWS and added the cleaned dataset to an S3 bu
 The Red Team used JS and html files in conjunction with GitHub pages for the presentation. Here is a sneak peak:
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip1.png width="300" height="200">
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip2.png width="300" height="200">
+<img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip3.png width="300" height="200">
 ## Summary and Results
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) <ins>`Summary`</ins>
 ### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`Results`</ins>
