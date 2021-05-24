@@ -32,10 +32,7 @@ The Red Team created a database in AWS and added the cleaned dataset to an S3 bu
 * Experimentation with a linear model, a random forest model, and an elastic net were also used to compare and contrast  
 * An unsupervised learning model was used to visualize the data in clusters
 ### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`4. Website and Dashboard`</ins>
-The Red Team used JS and html files in conjunction with GitHub pages for the presentation. 
-
-Here is a sneak peak:
-
+The Red Team used JS and html files in conjunction with GitHub pages for the presentation. Here is a sneak peak:
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip1.png width="300" height="200">
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip2.png width="300" height="200">
 ## Summary and Results
