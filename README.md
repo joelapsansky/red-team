@@ -38,6 +38,10 @@ The Red Team used JS and html files in conjunction with GitHub pages for the pre
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip3.png width="300" height="200">
 ## Summary and Results
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) <ins>`Summary`</ins>
-### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`Results`</ins>
+* Red Team leveraged 22 performance statistics from 2017-2021 and multiple machine learning models to conduct extensive quantiative analyses, the goal of which was to identify the key performance statistics that predict a PGA Tour golfer's annual winnings
+* Winnings are the ultimate measure of success for a professional golfer. Given that purses (the winnings offered by each tournament) increase with the profile of the tournament and the corresponding level of competition, it is appropriate to believe that the best golfers will earn the highest winnings
+### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`Key Findings and Results`</ins>
+* The average PGA Tour golfer earned approximately $2 million between 2017 and 2021, although more than half of the golfers earned less than $1.55 million per year
+* The Strokes Gained statistics were clearly the highest performers, with the Strokes Gained - Approach the Green rose above the rest
 ##### Thank you for your time and consideration to Red Team's Project 
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Golf_Course.png width="550" height="200">
