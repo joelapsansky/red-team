@@ -22,16 +22,17 @@ The below Platforms were solely utilized throughout this project to provide a me
 * Slack
 * Zoom 
 ## Approach and Technologies Used
-### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`1. Data Cleaning and Analysis`</ins>
+### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`1. Critical Analysis Files`</ins>
+### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`2. Data Cleaning and Analysis`</ins>
 * This project utilizes Pandas to scrape and clean the data  
 * Use of the "to_csv" function was adopted to send our cleaned dataset to a CSV for everyone to use
-### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`2. Database Storage`</ins>
+### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`3. Database Storage`</ins>
 * The Red Team created a database in AWS and added the cleaned dataset to an S3 bucket.  From there, the team wrote the data to Postgres using PySpark. The data is displayed on GitHub pages.
-### ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) <ins>`3. Machine Learning`</ins>
+### ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) <ins>`4. Machine Learning`</ins>
 * Supervised learning models for the project 
 * Experimentation with a linear model, a random forest model, and an elastic net were also used to compare and contrast  
 * An unsupervised learning model was used to visualize the data in clusters
-### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`4. Website and Dashboard`</ins>
+### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`5. Website and Dashboard`</ins>
 The Red Team used JS and html files in conjunction with GitHub pages for the presentation. Here is a sneak peak:
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip1.png width="300" height="200">
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip2.png width="300" height="200">
