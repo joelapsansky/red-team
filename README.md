@@ -43,6 +43,8 @@ The Red Team used JS and html files in conjunction with GitHub pages for the pre
 ### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`Key Findings and Results`</ins>
 * The average PGA Tour golfer earned approximately $2 million between 2017 and 2021, although more than half of the golfers earned less than $1.55 million per year
 * The Strokes Gained statistics were clearly the highest performers, with the Strokes Gained - Approach the Green rose above the rest
+### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`1. GitHub Page`</ins>
+https://ckyle121.github.io/golf_webiste-/
 ##### Thank you for your time and consideration to Red Team's Project 
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Golf_Course.png width="550" height="200">
-## GitHub Page: https://ckyle121.github.io/golf_webiste-/
+
