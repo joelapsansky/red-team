@@ -8,7 +8,7 @@ Key reasons for topic selection include:
 * The analysts identified a key interest among worldwide sports fans in sports analytics 
 * PGA was specifically utilized due to providing friendly data terms and a wide-array of available data to analyze    
 The source of our data:  
-* pgatour.com
+* www.PGATour.com/stats
 
 Question to answer:  
 * Which specific performance statistics collected on professional golfers contribute most to overall winnings since the start of 2017?
@@ -26,7 +26,7 @@ The below Platforms were solely utilized throughout this project to provide a me
 * This project utilizes Pandas to scrape and clean the data  
 * Use of the "to_csv" function was adopted to send our cleaned dataset to a CSV for everyone to use
 ### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`2. Database Storage`</ins>
-The Red Team created a database in AWS and added the cleaned dataset to an S3 bucket.  From there, the team wrote the data to Postgres using PySpark. The data is displayed on GitHub pages.
+* The Red Team created a database in AWS and added the cleaned dataset to an S3 bucket.  From there, the team wrote the data to Postgres using PySpark. The data is displayed on GitHub pages.
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) <ins>`3. Machine Learning`</ins>
 * Supervised learning models for the project 
 * Experimentation with a linear model, a random forest model, and an elastic net were also used to compare and contrast  
