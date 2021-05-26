@@ -22,7 +22,7 @@ The analysts solely relied upon the below sources in order to provide a means of
 * Slack
 * Zoom 
 ## Approach and Technologies Used
-### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`1. Critical Analysis Files`</ins>
+### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`1. Critical Analysis Files Within Repo`</ins>
 ### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`2. Data Cleaning and Analysis`</ins>
 * This project utilizes Pandas to scrape and clean the data  
 * Use of the "to_csv" function was adopted to send our cleaned dataset to a CSV for everyone to use
