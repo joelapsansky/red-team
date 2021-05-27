@@ -43,7 +43,7 @@ The Red Team used JS and html files in conjunction with GitHub pages for the pre
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) <ins>`Summary`</ins>
 * The Red Team leveraged 22 performance statistics from 2017-2021 and multiple machine learning models to conduct extensive quantitative analyses, the goal of which was to identify the key performance statistics that predict a PGA Tour golfer's annual winnings
 * Winnings are the ultimate measure of success for a professional golfer. Given that purses (the winnings offered by each tournament) increase with the profile of the tournament and the corresponding level of competition, it is a reasonable assumption that the best golfers will earn the highest winnings  
-* The Red Team analysts tried running all 3 aforementioned machine learning models without the highly correlated dependent variables, but the R2 score did not improve (<70%) 
+* The Red Team analysts tried running all 3 aforementioned machine learning models without the highly correlated independent variables, but the R2 score did not improve (<70%) 
 * The elastic net model is the primary model because it did not require the team to trim unneeded features ahead of time  
 1. The team used the results from the elastic net in the linear and random forest regression models, but since the ensuing results did not improve, the Red Team published all 3 models using all identified features
 2. The GitHub page incorporates charts from the elastic net machine learning Jupyter notebook so this is considered the primary model
