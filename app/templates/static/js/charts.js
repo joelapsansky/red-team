@@ -32,7 +32,7 @@ function optionChanged(newSample) {
   
 };
    
-// Create the buildChart function.
+// Create the buildChart function
 function buildCharts(golfstat) {
 
   // Use d3.json to load the samples.json file 
@@ -81,7 +81,7 @@ function buildCharts(golfstat) {
 
     var playername2021 = data2021.map(golfdata => golfdata["PLAYER NAME"])
 
-    // Make 5 traces
+    // Make 5 traces (one for each year)
     var trace2021 = {
       x: xvalues2021,
       y: yvalues2021,
@@ -146,7 +146,7 @@ function buildCharts(golfstat) {
       }
     };
 
-    // Use Plotly to plot the data with the layout. 
+    // Use Plotly to plot the data with the layout
     Plotly.newPlot("scatter",scatterData, layout);
   });
 };

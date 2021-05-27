@@ -33,7 +33,7 @@
         </div>
         <div class="col-sm-8">
           <p>
-            <h3>Are you an aspiring professional golfer?  Building a fantasy roster of PGA Tour pros?  Or are you placing a friendly wager on this week's PGA Tour event? If so, knowing which part of the game is the best predictor of success could help you!<br><br>Our team leveraged 22 performance statistics from 2017-2021 and multiple machine learning models to conduct extensive quantiative analyses, the goal of which was to identify the key performance statistics that predict a PGA Tour golfer's annual winnings.<br><br>Using the interactive chart below, explore the statistics that demonstrate a strong relationship with the ultimate output - annual winnings!  Hover over each data point to see which golfers separated themselves from the field over the last five seasons.</h3>
+            <h3>Are you an aspiring golfer?  Building a fantasy roster?  Or, are you placing a friendly wager on this week's PGA Tour event? If so, knowing which part of the game best predicts success could help you!<br><br>Our team leveraged 22 performance statistics from 2017-2021 and multiple machine learning models to conduct extensive quantiative analyses, the goal of which was to identify which stats best predict a PGA Tour golfer's annual winnings.<br><br>Using the interactive chart below, explore the statistics that demonstrate a strong relationship with the ultimate output - annual winnings!  Hover over each data point to see which golfers separated themselves from the field over the last five seasons.</h3>
           </p>
         </div>
       </div>
@@ -59,7 +59,7 @@
     <h2>Winnings Distribution</h2>
     <div class="row">
       <div class="col-sm-4">
-        <h3>Winnings are the ultimate measure of success for a professional golfer.  Given that purses (the winnings offered by each tournament) increase with the profile of the tournament and the corresponding level of competition, it is appropriate to believe that the best golfers will earn the highest winnings</h3>
+        <h3>Winnings are the ultimate measure of success for a professional golfer.  Given that purses (the winnings offered by each tournament) increase with the profile of the tournament and the corresponding level of competition, it is reasonable to assume that the best golfers will earn the highest winnings.</h3>
         <h3>The average PGA Tour golfer earned approximately $2 million between 2017 and 2021, although more than half of the golfers earned less than $1.55 million per year.</h3>  
       </div>
       <div class="col-sm-8">
@@ -74,8 +74,8 @@
         <div class="row">
           <div class="col-sm-4">
             <h3>The primary outout of our analysis was the ranked importance of key golf statistics.  Leveraging multiple supervised learning models, we were able to isolate a handful of performance statistics that predicted a golfer's success.</h3>  
-            <h3>Not surprisingly, the Strokes Gained statistics were clearly the highest performers in our models.  These statistics evaluate a goler's performance relative to the average of the field.  In a competitive setting, outperforming your competition will obviously lead to imporved results.</h3>
-            <h3>When ranking each of these statitsics, the Strokes Gained - Approach the Green rose above the rest.  This is a measure of a golfer's relative performance when they approaching the green from a distance greater than 50 yards, a component of the golf game that is pivotal to their overall success - a good shot results in an easy putt while a bad shot lands in a hazard, possibly costing them multiple strokes.</h3>
+            <h3>Not surprisingly, the Strokes Gained statistics were the highest performers in our models.  These statistics evaluate golers' performance relative to the field.  In a competitive setting, outperforming your competition will obviously lead to imporved results.</h3>
+            <h3>When ranking each of these statitsics, the Strokes Gained - Approach the Green rose above the rest.  This is a measure of a golfer's relative performance when they approaching the green from a distance greater than 50 yards, a component of the golf game that is pivotal to their overall success - a good shot results in an easy putt while a bad shot lands further from the green, potentially costing multiple strokes.</h3>
           </div>
           <div class="col-sm-8">
             <img src="static/images/importances_bar_chart.PNG" class="rounded mx-auto d-block" alt="Feature Importance" width="1100" height="700">
@@ -88,8 +88,7 @@
     <h2>Correlation Matrix</h2>
     <div class="row">
       <div class="col-sm-4">
-        <h3>During our initial model set-up, a number of our performance statistics exhibited high degrees of corrleation, potentially impacting the efficacy of the machine learning model.  Once these highly-correlated variables were removed from the model, its performance improved.</h3>  
-        <h3>An example of highly-correlated variables are displayed to the right.  A golfer's average driving distance ("driving_dist_avg") and their percentage of drives longer than 320 yards ("pct_ydg_tee_AVG (%)") were highly correlated because golfers who consistently drive longer than 320 yards will also have higher average driving distances than that of their competition.</h3>
+        <h3>During initial model set-up, a number of performance statistics exhibited high degrees of corrleation, potentially impacting the efficacy of the machine learning model.  Removing Strokes Gained Tee to Green and Birdie to Bogey ratio stats (highly-correlated independent variables) improved the model.  It also helped us hone in on stats that point directly to a signle aspect of the game, which provides much more insight.</h3>  
       </div>
       <div class="col-sm-8">
         <img src="static/images/Correlation_Matrix.PNG" class="rounded mx-auto d-block" alt="Correlation Matrix" width="900" height="700">
@@ -102,7 +101,7 @@
     <h2>Performance Statistics Definitions</h2>
     <div class="row">
       <div class="col-sm-4">
-        <h3>Golf, like most sports in 2021, has embraced the sports analytics revolution.  Every aspect of a golfer's game is quantified and scrutinized, all in an effort to improve the golfer's performance as well as the spectator's understanding of the game.</h3>  
+        <h3>Golf, like most sports in 2021, has embraced the sports analytics revolution.  Every aspect of a golfer's game is quantified and scrutinized in an effort to improve the golfer's performance as well as the spectator's understanding of the game.</h3>  
         <h3>With the proliferation of advanced statistics comes the challenge of actually understanding what it all means.  We have provided definitions of the key statistics used in our analysis. </h3>
         <h5>Source: www.PGATour.com/stats</h5>
       </div>
@@ -119,8 +118,6 @@
     </footer>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-  <script src="static/js/data.js"></script>
-  <script src="static/js/app.js"></script>
   <script src="https://d3js.org/d3.v4.js"></script>
   <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
   <script src="static/js/charts.js"></script>
