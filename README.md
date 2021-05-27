@@ -22,13 +22,12 @@ The analysts solely relied upon the below sources in order to provide a means of
 * Slack
 * Zoom 
 ## Approach and Technologies Used
-### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`1. Critical Analysis Files Within Repo`</ins>
-### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`2. Data Cleaning and Analysis`</ins>
+### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`1. Data Cleaning and Analysis`</ins>
 * This project utilizes Pandas to scrape and clean the data  
 * Use of the "to_csv" function was adopted to send our cleaned dataset to a CSV for everyone to use
-### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`3. Database Storage`</ins>
+### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`2. Database Storage`</ins>
 * The Red Team created a database in AWS and added the cleaned dataset to an S3 bucket.  From there, the team wrote the data to Postgres using PySpark. The data is displayed on GitHub pages.
-### ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) <ins>`4. Machine Learning`</ins>
+### ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) <ins>`3. Machine Learning`</ins>
 * Considered 3 supervised learning regression models
 1. PRIMARY: Elastic Net Regression  
 2. SECONDARY: Random Forest Regression  
