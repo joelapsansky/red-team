@@ -33,14 +33,14 @@ The analysts solely relied upon the below sources in order to provide a means of
 2. SECONDARY: Random Forest Regression  
 3. OTHER: Linear Regression    
 * Red Team analysts also used an unsupervised learning model to visualize data in clusters  
-### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`5. Website and Dashboard`</ins>
+### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`4. Website and Dashboard`</ins>
 The Red Team used JS and html files in conjunction with GitHub pages for the presentation. Here is a sneak peek:
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip1.png width="300" height="200">
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip2.png width="300" height="200">
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip3.png width="300" height="200">
 ## Summary and Results
 ### ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) <ins>`Summary`</ins>
-* The Red Team leveraged 22 performance statistics from 2017-2021 and multiple machine learning models to conduct extensive quantitative analyses, the goal of which was to identify the key performance statistics that predict a PGA Tour golfer's annual winnings
+* The Red Team leveraged 22 performance statistics from 2017-2021 and multiple machine learning models to conduct extensive quantitative analyses, the goal of which was to identify the key performance statistics that help predict a PGA Tour golfer's annual winnings
 * Winnings are the ultimate measure of success for a professional golfer. Given that purses (the winnings offered by each tournament) increase with the profile of the tournament and the corresponding level of competition, it is a reasonable assumption that the best golfers will earn the highest winnings  
 * The Red Team analysts tried running all 3 aforementioned machine learning models without the highly correlated independent variables, but the R2 score did not improve (<70%) 
 * The elastic net model is the primary model because it did not require the team to trim unneeded features ahead of time  
