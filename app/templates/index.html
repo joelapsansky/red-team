@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Predictive Golf Statistics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="icon" href="static/images/Golf_Course.png">
+  <link rel="stylesheet" href="static/css/style.css">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Home
+            <img class="nav-ufo" src="static/images/golf_ball.jpg">
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="hero text-center">
+        <h1>PGA Pro Forecasting Guide</h1>
+        <p>Make Smarter Predictions</p>
+    </div>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <h1>Which Performance Statistics Best Predict PGA Tour Winnings?</h1> 
+        </div>
+        <div class="col-sm-8">
+          <p>
+            <h3>Are you an aspiring golfer?  Building a fantasy roster?  Or, are you placing a friendly wager on this week's PGA Tour event? If so, knowing which part of the game best predicts success could help you!<br><br>Our team leveraged 22 performance statistics from 2017-2021 and multiple machine learning models to conduct extensive quantiative analyses, the goal of which was to identify which stats best predict a PGA Tour golfer's annual winnings.<br><br>Using the interactive chart below, explore the statistics that demonstrate a strong relationship with the ultimate output - annual winnings!  Hover over each data point to see which golfers separated themselves from the field over the last five seasons.</h3>
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Interactive Scatterplot - links to charts.js  -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="well">
+            <h2>Golf Performance Statistics</h2>
+            <select id="selDataset" style="color: black" onchange="optionChanged(this.value)"></select>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div id="scatter"></div>
+      </div>
+    </div>
+
+<!-- Winnings Dist  -->
+<div class="container-fluid">
+  <div class="row">
+    <h2>Winnings Distribution</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Winnings are the ultimate measure of success for a professional golfer.  Given that purses (the winnings offered by each tournament) increase with the profile of the tournament and the corresponding level of competition, it is reasonable to assume that the best golfers will earn the highest winnings.</h3>
+        <h3>The average PGA Tour golfer earned approximately $2 million between 2017 and 2021, although more than half of the golfers earned less than $1.55 million per year.</h3>  
+      </div>
+      <div class="col-sm-8">
+        <img src="static/images/winnings_dist.png" class="rounded mx-auto d-block" style="background-color:rgba(255, 255, 255, 0.998);padding:20px;" alt="Winnings Distribution" width="900" height="700">
+      </div>  
+    </div>
+
+    <!-- Imporant stats  -->
+    <div class="container-fluid">
+      <div class="row">
+        <h2>Feature Importance</h2>
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>The primary outout of our analysis was the ranked importance of key golf statistics.  Leveraging multiple supervised learning models, we were able to isolate a handful of performance statistics that predicted a golfer's success.</h3>  
+            <h3>Not surprisingly, the Strokes Gained statistics were the highest performers in our models.  These statistics evaluate golers' performance relative to the field.  In a competitive setting, outperforming your competition will obviously lead to imporved results.</h3>
+            <h3>When ranking each of these statitsics, the Strokes Gained - Approach the Green rose above the rest.  This is a measure of a golfer's relative performance when they approaching the green from a distance greater than 50 yards, a component of the golf game that is pivotal to their overall success - a good shot results in an easy putt while a bad shot lands further from the green, potentially costing multiple strokes.</h3>
+          </div>
+          <div class="col-sm-8">
+            <img src="static/images/importances_bar_chart.PNG" class="rounded mx-auto d-block" alt="Feature Importance" width="1100" height="700">
+          </div>
+        </div>
+
+<!-- Correlation  -->
+<div class="container-fluid">
+  <div class="row">
+    <h2>Correlation Matrix</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>During initial model set-up, a number of performance statistics exhibited high degrees of corrleation, potentially impacting the efficacy of the machine learning model.  Removing Strokes Gained Tee to Green and Birdie to Bogey ratio stats (highly-correlated independent variables) improved the model.  It also helped us hone in on stats that point directly to a signle aspect of the game, which provides much more insight.</h3>  
+      </div>
+      <div class="col-sm-8">
+        <img src="static/images/Correlation_Matrix.PNG" class="rounded mx-auto d-block" alt="Correlation Matrix" width="900" height="700">
+      </div>
+    </div>
+
+<!-- GLOSSARY -->
+<div class="container-fluid">
+  <div class="row">
+    <h2>Performance Statistics Definitions</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Golf, like most sports in 2021, has embraced the sports analytics revolution.  Every aspect of a golfer's game is quantified and scrutinized in an effort to improve the golfer's performance as well as the spectator's understanding of the game.</h3>  
+        <h3>With the proliferation of advanced statistics comes the challenge of actually understanding what it all means.  We have provided definitions of the key statistics used in our analysis. </h3>
+        <h5>Source: www.PGATour.com/stats</h5>
+      </div>
+    <div class="col-sm-8">
+      <img src="static/images/glossary.png" class="rounded mx-auto d-block" alt="Performance Statistics Glossary" width="900" height="700">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+    <footer class="footer">
+      <span class="bottom">PGA Pro Forecasting Guide</span>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="static/js/charts.js"></script>
+</body>
+
+</html>
+
+<!--image from: https://www.shutterstock.com/search/golf+training -->
+<!--ref: https://github.com/surasb11/UFO-Sightings/blob/master/UFO/index.html-->
