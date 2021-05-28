@@ -34,7 +34,7 @@ The analysts solely relied upon the below sources in order to provide a means of
 3. OTHER: Linear Regression    
 * Red Team analysts also used an unsupervised learning model to visualize data in clusters  
 ### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`4. Website and Dashboard`</ins>
-The Red Team used JS and html files in conjunction with GitHub pages for the presentation. Here is a sneak peek:
+The Red Team used JS and html files in conjunction with GitHub pages for the presentation. Here is a sneak peek (screenshots taken at time of presentation, but have been revised on the actual site):
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip1.png width="300" height="200">
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip2.png width="300" height="200">
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip3.png width="300" height="200">
