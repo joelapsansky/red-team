@@ -23,8 +23,8 @@ The analysts solely relied upon the below sources in order to provide a means of
 * Zoom 
 ## Approach and Technologies Used
 ### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`1. Data Cleaning and Analysis`</ins>
-* This project utilizes Pandas to scrape and clean the data:  
-[Scrape](/Scrape & Clean/scrape_golf_data_rewrite.ipynb)      
+Data scrape revision: [scrape_golf_data_rewrite](/Scrape%20&%20Clean/scrape_golf_data_rewrite.ipynb)  
+* This project utilizes Pandas to scrape and clean the data    
 * Use of the "to_csv" function was adopted to send our cleaned dataset to a CSV for everyone to use
 ### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`2. Database Storage`</ins>
 * The Red Team created a database in AWS and added the cleaned dataset to an S3 bucket.  From there, the team wrote the data to Postgres using PySpark. The data is displayed on GitHub pages.
@@ -35,7 +35,7 @@ The analysts solely relied upon the below sources in order to provide a means of
 3. OTHER: Linear Regression    
 * Red Team analysts also used an unsupervised learning model to visualize data in clusters  
 ### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`4. Website and Dashboard`</ins>
-* The Red Team used JS and html files in conjunction with GitHub pages for the presentation. Here is a sneak peek (screenshots taken at time of presentation, but have been revised on the actual site):  
+The Red Team used JS and html files in conjunction with GitHub pages for the presentation. Here is a sneak peek (screenshots taken at time of presentation, but have been revised on the actual site):    
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip1.png width="300" height="200">
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip2.png width="300" height="200">
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip3.png width="300" height="200">
@@ -52,7 +52,7 @@ The analysts solely relied upon the below sources in order to provide a means of
 * The Strokes Gained statistics were clearly the highest performers, and the Strokes Gained - Approach to the Green rose above the rest
 ### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`GitHub Page`</ins>  
 GitHub page at time of presentation 5/26/2021: https://ckyle121.github.io/golf_website/  
-FINAL revised GitHub page deployed 5/28/2021: https://joelapsansky.github.io/golf-stats-page/
+FINAL revised GitHub page deployed 5/28/2021: https://joelapsansky.github.io/golf-stats-page/  
 ##### Thank you for your time and consideration to Red Team's Project.   
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Golf_Course.png width="550" height="200">
 
