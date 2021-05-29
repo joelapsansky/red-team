@@ -1,6 +1,6 @@
 # Golf Performance Statistics
 ## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`Let's dive into the storyboard`</ins> 
-##### (https://docs.google.com/presentation/d/1Y2zdGDBPXmdN_HR1W3VoXMS89-FKNL99FMIY0WZH-mQ/edit?usp=sharing![image](https://user-images.githubusercontent.com/75185896/118383303-43296000-b5c2-11eb-9436-7f1fa2655f84.png)
+##### https://docs.google.com/presentation/d/1Y2zdGDBPXmdN_HR1W3VoXMS89-FKNL99FMIY0WZH-mQ/edit?usp=sharing![image](https://user-images.githubusercontent.com/75185896/118383303-43296000-b5c2-11eb-9436-7f1fa2655f84.png)
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/StoryBoard_Image.png width="400" height="200">
 
 ### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`Selected topic`</ins>
@@ -23,7 +23,8 @@ The analysts solely relied upon the below sources in order to provide a means of
 * Zoom 
 ## Approach and Technologies Used
 ### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`1. Data Cleaning and Analysis`</ins>
-* This project utilizes Pandas to scrape and clean the data  
+* This project utilizes Pandas to scrape and clean the data:  
+[Scrape](/Scrape & Clean/scrape_golf_data_rewrite.ipynb)      
 * Use of the "to_csv" function was adopted to send our cleaned dataset to a CSV for everyone to use
 ### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) <ins>`2. Database Storage`</ins>
 * The Red Team created a database in AWS and added the cleaned dataset to an S3 bucket.  From there, the team wrote the data to Postgres using PySpark. The data is displayed on GitHub pages.
@@ -34,7 +35,7 @@ The analysts solely relied upon the below sources in order to provide a means of
 3. OTHER: Linear Regression    
 * Red Team analysts also used an unsupervised learning model to visualize data in clusters  
 ### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) <ins>`4. Website and Dashboard`</ins>
-The Red Team used JS and html files in conjunction with GitHub pages for the presentation. Here is a sneak peek (screenshots taken at time of presentation, but have been revised on the actual site):  
+* The Red Team used JS and html files in conjunction with GitHub pages for the presentation. Here is a sneak peek (screenshots taken at time of presentation, but have been revised on the actual site):  
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip1.png width="300" height="200">
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip2.png width="300" height="200">
 <img src=https://github.com/joelapsansky/red-team/blob/database_app/app/templates/static/images/Website_Clip3.png width="300" height="200">
